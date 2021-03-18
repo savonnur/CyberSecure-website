@@ -1,0 +1,349 @@
+// NAVIGATION BAR 
+.navbar-brand {
+  padding: 0 50px;
+  @media only screen and (max-width: 555px){
+    padding: 0 10px;
+  }
+}
+
+.nav-link {
+  font-size: 1.2rem;
+}
+
+#Brand1 {
+  font-family: 'PT Serif', serif;
+}
+
+.logo-name {
+  @media only screen and (max-width: 555px) {
+    font-size: 1.2rem;
+  }
+}
+
+.navbar-nav {
+  padding-right: 40px;
+}
+
+// CAROUSEL 
+.carousel-caption {
+    h5 {
+      font-size: 2rem;
+      @media only screen and (max-width: 426px){
+        font-size: 1.5rem;
+      }
+    }
+
+    p {
+      font-size: 1.3rem;
+      @media only screen and (max-width: 426px){
+        font-size: 1rem;
+      }
+    }
+}
+
+.carousel-item {
+  height: 32rem;
+  background-color: black;
+  color: white;
+
+    @media only screen and (max-width: 621px){
+      height: 450px;
+    }
+}
+
+.caro-img3 {
+  @media only screen and (max-width: 539px){
+    content: url(./images/cyberimg.jpg);
+  }
+}
+
+#sliderimg {
+  opacity: 0.4;
+}
+
+//MINI BANNER
+.mini-banner {
+  background-color: #09006e;
+  height: 70px;
+  text-align: center;
+    @media only screen and (max-width:410px) {
+      height: 90px;
+    }
+
+    h3 {
+      padding-top: 15px;
+      color: white;
+      font-family: 'Merriweather Sans', sans-serif;
+    }
+}
+
+// INFO BANNER 
+.info-banner {
+  padding-top: 50px;
+  padding-bottom: 100px;
+  padding-left: 20px;
+  padding-right: 20px;
+  height: 300px;
+  text-align: center;
+  color: #09006e;
+
+  @media only screen and (max-width: 1024px){
+    height: 350px;
+  }
+
+    @media only screen and (max-width: 900px){
+      height: 350px;
+    }
+
+    @media only screen and (max-width: 640px){
+      height: 450px;
+    }
+
+    @media only screen and (max-width: 414px){
+      height: 500px;
+    }
+
+    @media only screen and (max-width: 388px){
+      height: 600px;
+    }
+
+    h2 {
+      font-family: 'Merriweather Sans', sans-serif;
+    }
+
+    hr {
+      border: 1px solid #09006e;
+      width: 75%;
+    }
+
+    h5 {
+      color: black;
+      font-family: 'Merriweather', serif;
+      font-weight: 800;
+    }
+
+    .info {
+      padding-bottom: 40px;
+    }
+
+    .get_started {
+      -webkit-border-radius: 0;
+      -moz-border-radius: 0;
+      border-radius: 0px;
+      font-family: Arial;
+      color: #09006E;
+      font-size: 27px;
+      background: #ffffff;
+      padding: 10px 20px 10px 20px;
+      border: solid #09006E 3px;
+      text-decoration: none;
+    }
+    
+    .get_started:hover {
+      background: #09006E;
+      color: white;
+      text-decoration: none;
+    }
+}
+
+// FEATURE ROW 
+.feats{
+  background-color: #09006e;
+}
+.row {
+  padding-top: 70px;
+  padding-bottom: 70px;
+  text-align: center;
+  padding-left: 70px;
+  padding-right: 70px;
+
+    @media only screen and (max-width:442px) {
+      padding-left: 0;
+      padding-right: 0;
+    }
+}
+
+  .feature-box {
+    padding: 20px;
+  }
+
+.description {
+  margin: auto;
+  text-align: center;
+  width: 300px;
+  color: white;
+  font-family: 'Merriweather Sans', sans-serif;
+}
+
+.feature-title {
+  color: white;
+  padding-top: 10px;
+  font-family: 'Merriweather Sans', sans-serif;
+}
+
+.feat-icon {
+  color:white;
+}
+
+.feat-icon:hover {
+  opacity: 0.5;
+}
+
+// TRUSTED BY COMPANIES SECTION 
+.trusted {
+  text-align: center;
+  height: 400px;
+
+    h2 {
+      padding-top: 60px;
+      color: #09006e;
+      font-family: 'Merriweather Sans', sans-serif;
+    }
+
+    hr {
+      border: 1px solid #09006e;
+      width: 75%;
+    }
+
+    .company-logo {
+      width: 20%;
+      margin: 20px 20px;
+    }
+}
+
+// TESTIMONIALS 
+#testimonials {
+  text-align: center;
+  background-color: #09006e;
+  color: white;
+  padding-top: 40px;
+
+  h2 {
+    font-family: 'Merriweather Sans', sans-serif;
+  }
+
+  hr {
+    border: 1px solid white;
+    width: 75%;
+  }
+
+  .testimonial-text {
+    font-family: 'Merriweather Sans', sans-serif;
+    font-size: 2.5rem;
+    font-weight:800;
+    font-style: italic;
+    @media only screen and (max-width:569px) {
+      font-size: 2rem;
+    }
+
+    @media only screen and (max-width:356px) {
+      font-size: 1.8rem;
+    }
+  }
+  
+  .testimonial-image {
+    width: 10%;
+    border-radius: 100%;
+    margin: 20px;
+  }
+  
+  .carousel-item {
+    background-color: #09006e;
+    padding-top: 5%;
+    padding-bottom: 10%;
+    padding-left: 15%;
+    padding-right: 15%;
+  }
+}
+
+// LEARN MORE ROW 
+.learn-more-row {
+  padding-left: 40px;
+  padding-right: 40px;
+
+  .learn-more-title {
+    color: #09006e;
+    font-size:4rem;
+    font-family: 'Merriweather Sans', sans-serif;
+      @media only screen and (max-width:425px) {
+        font-size: 2.5rem;
+      }
+  }
+  
+  .learn-more-p {
+    font-size: 1.3rem;
+    line-height: 1.8rem;
+    font-family: 'Merriweather', serif;
+    font-weight: 800;
+  }
+
+  .ln-btn {
+    -webkit-border-radius: 0;
+    -moz-border-radius: 0;
+    border-radius: 0px;
+    font-family: Arial;
+    color: #09006E;
+    font-size: 27px;
+    background: #ffffff;
+    padding: 10px 20px 10px 20px;
+    border: solid #09006E 3px;
+    text-decoration: none;
+  }
+  
+  .ln-btn:hover{
+    background: #09006E;
+    color: white;
+    text-decoration: none;
+  }
+
+  .ln-img {
+    @media only screen and (max-width: 984px){
+      padding-top: 20px;
+    }
+  }
+}
+
+// FOOTER SECTION 
+.footer-section {
+  padding: 40px;
+  height: 150px;
+  background-color: #09006E;
+  color: white;
+    @media only screen and (max-width:744px) {
+      height: 250px;
+    }
+}
+
+    .footer-phone {
+      float: left;
+      color: white;
+        @media only screen and (max-width:744px) {
+          display: block;
+          float: none;
+          text-align: center;
+        }
+    }
+
+    .footer-socials {
+      display: inline;
+      float: right;
+      color: white;
+        @media only screen and (max-width:744px) {
+          display: block;
+          float: none;
+          text-align: center;
+        }
+    }
+
+    .social {
+      padding-left: 20px;
+    }
+
+    .social:hover {
+      cursor: pointer;
+      color: gold;
+    }
+
+    .copyright {
+      text-align: center;
+    }
