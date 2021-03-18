@@ -1,1 +1,0 @@
-A mock cyber-security website made with HTML, SASS, and Bootstrap for practice. 
